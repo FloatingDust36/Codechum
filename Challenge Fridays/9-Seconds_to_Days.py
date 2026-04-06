@@ -1,0 +1,5 @@
+s = int(input("Enter the number of seconds: "))
+m, s = divmod(s, 60)
+h, m = divmod(m, 60)
+d, h = divmod(h, 24)
+print(f"{d} days, {h} hours, {m} minutes, {s} seconds")
